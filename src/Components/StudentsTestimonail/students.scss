@@ -1,0 +1,25 @@
+@import "../../Themes/viewport.scss";
+
+.studenets-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .student-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.04375rem;
+    margin-bottom: 3rem;
+  }
+  .student-testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+}

@@ -1,0 +1,88 @@
+@import "../../Themes/viewport.scss";
+.nav {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.company-logo {
+  width: 40px;
+  > img {
+    width: 100%;
+    height: auto;
+  }
+  @include tablet {
+    width: 20px;
+  }
+}
+
+.input-container-nav {
+  position: relative;
+  display: inline-block;
+
+  padding: 0 !important;
+  @include tablet {
+    display: none;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.input-with-icon {
+  padding-left: 24px;
+  height: 2.1875rem;
+  flex-shrink: 0;
+  border-radius: 1.8125rem;
+  background: linear-gradient(183deg, #fff 2.32%, rgba(61, 57, 180, 0) 269.33%);
+  box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.drop-downs {
+  display: flex;
+  gap: 1rem;
+  @include tablet {
+    display: none;
+  }
+  #dropdown-basic {
+    background-color: transparent;
+    border: none;
+  }
+}
+.login {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: #fff;
+  > p {
+    margin: 0;
+    @include tablet {
+      font-size: 0.5rem;
+    }
+  }
+}
+.nav-btn {
+  width: 5.0625rem;
+  height: 2.1875rem;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  background: #fff;
+  color: #332b93;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  @include tablet {
+    width: auto;
+    height: auto;
+    font-size: 0.5rem;
+  }
+}

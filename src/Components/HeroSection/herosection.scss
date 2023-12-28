@@ -1,0 +1,27 @@
+.hero-section {
+  background: linear-gradient(
+    78deg,
+    #160031 -0.99%,
+    #4b0496 35.22%,
+    #2b81dd 98.01%
+  );
+}
+.banner {
+  display: flex;
+  padding: 0 2rem 0 2rem;
+  align-items: center;
+}
+.img-container {
+  width: 50%;
+  > img {
+    width: 100%;
+    height: auto;
+  }
+}
+.content {
+  width: 45%;
+  > img {
+    width: 100%;
+    height: auto;
+  }
+}

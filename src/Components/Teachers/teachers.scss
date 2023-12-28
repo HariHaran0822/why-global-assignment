@@ -1,0 +1,37 @@
+@import "../../Themes/viewport.scss";
+.teacher-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  .teacher-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    .teacher-t1 {
+      color: #000;
+      font-family: Inter;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.04375rem;
+    }
+    .teacher-t2 {
+      color: #636363;
+      font-family: Inter;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.02188rem;
+    }
+  }
+  .cards-teacher {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}

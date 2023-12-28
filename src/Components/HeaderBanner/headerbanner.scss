@@ -1,0 +1,23 @@
+.header-section {
+  background-color: black;
+}
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 0.5rem;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 0.5rem;
+  > img {
+    width: 100%;
+    max-height: 20px;
+  }
+}

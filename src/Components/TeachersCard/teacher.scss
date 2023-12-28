@@ -1,0 +1,71 @@
+.card {
+  width: 300px;
+  border-radius: 1.4375rem;
+  background: #fff;
+  box-shadow: -1px 0px 29px -4px rgba(0, 0, 0, 0.25);
+  padding: 3rem 2rem 3rem 2rem;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+  .card-headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .card-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 1rem;
+      .name {
+        color: #636363;
+        font-family: Inter;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.0375rem;
+        margin: 0;
+      }
+      .country {
+        color: #636363;
+        font-family: Inter;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.02188rem;
+        margin: 0;
+      }
+    }
+  }
+  .card-country {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+  }
+  .teacher-image {
+    width: 5rem;
+    > img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .card-context {
+    text-align: start;
+    .paragaraph-teacher {
+      color: #938e8e;
+      font-family: Inter;
+      font-size: 0.8125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.02031rem;
+    }
+  }
+}

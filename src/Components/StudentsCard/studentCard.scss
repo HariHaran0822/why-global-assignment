@@ -1,0 +1,77 @@
+@import "../../Themes/viewport.scss";
+
+.stud-card {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  @include tablet {
+    flex-direction: column !important;
+  }
+  .stud-img {
+    width: 20%;
+    height: 25%;
+    // max-width: 8.8125rem;
+    // max-height: 7.375rem;
+    flex-shrink: 0;
+    > img {
+      width: 100%;
+      height: 100%;
+    }
+    @include tablet {
+      width: 100%;
+    }
+  }
+  .stud-text {
+    width: 65%;
+    // max-width: 37.0625rem;
+    // min-height: 10.75rem;
+    border-radius: 0.9375rem;
+    background: #f4f4ff;
+    padding: 1rem 2rem;
+    text-align: left;
+    @include tablet {
+      width: auto;
+    }
+    .stud-p {
+      color: #938e8e;
+      font-family: Inter;
+      font-size: 0.8125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.02031rem;
+      width: 40%;
+      @include tablet {
+        width: 100%;
+      }
+    }
+    .stud-name {
+      color: #636363;
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.025rem;
+    }
+
+    .student-country {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      .stud-count {
+        color: #636363;
+        font-family: Inter;
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.02031rem;
+      }
+    }
+  }
+  .dummy {
+    width: 25%;
+  }
+}

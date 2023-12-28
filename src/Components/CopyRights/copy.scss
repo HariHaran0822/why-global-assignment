@@ -1,0 +1,47 @@
+// copy.scss
+@import "../../Themes/viewport.scss";
+
+.copy-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @include tablet {
+    flex-direction: column;
+  }
+
+  .copy-left,
+  .copy-right {
+    width: 50%;
+    color: #545353;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.025rem;
+    padding: 1rem 0;
+
+    @include tablet {
+      width: 100%;
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 0.8rem; // Apply font size directly to the container for mobile
+    }
+
+    .link {
+      color: #545353;
+      text-decoration-line: underline;
+      font-weight: 600;
+
+      @include tablet {
+        font-size: 0.8rem;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 0.8rem; // Apply font size directly to the anchor tag for mobile
+      }
+    }
+  }
+}

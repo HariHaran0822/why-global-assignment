@@ -1,0 +1,91 @@
+@import "../../Themes/viewport.scss";
+
+// .carousel-container {
+//   padding: 3rem 0 0;
+//   background: #dbdaff;
+//   .carosel {
+//     display: flex;
+//     justify-content: center;
+//     gap: 2rem;
+//     padding: 1rem 0;
+//     @include tablet {
+//       display: none;
+//     }
+//   }
+
+//   .mobile-slider {
+//     display: none;
+//     @include tablet {
+//       display: block;
+//     }
+//   }
+// }
+
+@import "../../Themes/viewport.scss";
+
+.carousel-container {
+  padding: 3rem 0 0;
+  background: #dbdaff;
+  .carosel {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    @include tablet {
+      display: none; // Hide on tablets and smaller screens
+    }
+  }
+}
+@import "../../Themes/viewport.scss";
+
+// .carousel-container {
+//   padding: 3rem 0 0;
+//   background: #dbdaff;
+//   .carosel {
+//     display: flex;
+//     justify-content: center;
+//     gap: 2rem;
+//     padding: 1rem 0;
+//     @include tablet {
+//       display: none;
+//     }
+//   }
+
+//   .mobile-slider {
+//     display: none;
+//     @include tablet {
+//       display: block;
+//     }
+//   }
+// }
+
+@import "../../Themes/viewport.scss";
+
+.carousel-container {
+  padding: 3rem 0 0;
+  background: #dbdaff;
+  .carosel {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  @include tablet {
+    display: none;
+  }
+}
+
+.carousel-container-mobile {
+  padding: 3rem 0 0;
+  background: #dbdaff;
+  display: none;
+  .carosel {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  @include tablet {
+    display: block;
+  }
+}
