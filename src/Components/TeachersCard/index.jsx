@@ -13,7 +13,6 @@ export const TeachersCard = ({
             <p className="country">{country}</p>
             <img src={countryIcon} alt={name} />
           </div>
-          <div id="line"></div>
         </div>
         <div className="teacher-image">
           <img src={teacherIcon} alt={name} />
