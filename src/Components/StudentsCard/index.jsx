@@ -8,9 +8,13 @@ export const StudentCard = ({
   Image,
   logo,
   direction,
+  align,
 }) => {
   return (
-    <div className="stud-card" style={{ flexDirection: direction }}>
+    <div
+      className="stud-card"
+      style={{ flexDirection: direction, alignItems: align }}
+    >
       <div className="stud-img">
         <img src={Image} alt="img" />
       </div>

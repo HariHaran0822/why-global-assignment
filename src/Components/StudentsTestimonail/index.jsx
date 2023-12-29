@@ -34,6 +34,7 @@ to perform higher education to students."
             logo={Uklogo}
             Image={RighttImage}
             direction="row-reverse"
+            align="end"
           />
         </div>
       </div>
