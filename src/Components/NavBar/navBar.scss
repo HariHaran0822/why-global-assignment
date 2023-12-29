@@ -1,10 +1,9 @@
 @import "../../Themes/viewport.scss";
 .nav {
   display: flex;
-  padding: 0.5rem;
+  padding: 1rem;
   align-items: center;
-  justify-content: space-around;
-  margin-bottom: 2rem;
+  justify-content: space-evenly;
 }
 
 .company-logo {
@@ -47,7 +46,6 @@
 
 .drop-downs {
   display: flex;
-  gap: 1rem;
   @include tablet {
     display: none;
   }

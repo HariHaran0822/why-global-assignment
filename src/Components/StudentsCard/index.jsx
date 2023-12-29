@@ -22,11 +22,10 @@ export const StudentCard = ({
           <img
             src={logo}
             alt={name}
-            style={{ width: "20px", height: "20px" }}
+            style={{ width: "15px", height: "15px" }}
           />
         </div>
       </div>
-      <div className="dummy"></div>
     </div>
   );
 };
